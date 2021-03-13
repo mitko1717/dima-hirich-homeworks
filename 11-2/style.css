@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "fontaee5e23445ebb8aaca3747470069d3a9";
+
+  src: url("https://nomail.com.ua/files/eot/aee5e23445ebb8aaca3747470069d3a9.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://nomail.com.ua/files/woff/aee5e23445ebb8aaca3747470069d3a9.woff")
+      format("woff"),
+    url("https://nomail.com.ua/files/woff2/aee5e23445ebb8aaca3747470069d3a9.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "ProximaNova-LightCondensed";
+  src: local("ProximaNova-LightCondensed"),
+    url("https://nomail.com.ua/files/woff/aee5e23445ebb8aaca3747470069d3a9.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "font6bdad2171386bb586d2bc0fe719abf2d";
+
+  src: url("https://nomail.com.ua/files/eot/6bdad2171386bb586d2bc0fe719abf2d.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://nomail.com.ua/files/woff/6bdad2171386bb586d2bc0fe719abf2d.woff")
+      format("woff"),
+    url("https://nomail.com.ua/files/woff2/6bdad2171386bb586d2bc0fe719abf2d.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "FuturaBT-Medium";
+  src: local("FuturaBT-Medium"),
+    url("https://nomail.com.ua/files/woff/6bdad2171386bb586d2bc0fe719abf2d.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "fontde6243382a94fdc4813e4cbd4ff7d919";
+
+  src: url("https://nomail.com.ua/files/eot/de6243382a94fdc4813e4cbd4ff7d919.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://nomail.com.ua/files/woff/de6243382a94fdc4813e4cbd4ff7d919.woff")
+      format("woff"),
+    url("https://nomail.com.ua/files/woff2/de6243382a94fdc4813e4cbd4ff7d919.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: local("Georgia"),
+    url("https://nomail.com.ua/files/woff/de6243382a94fdc4813e4cbd4ff7d919.woff")
+      format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+.page {
+  width: 1200px;
+  background-color: #464f54;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.page__absolute {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  overflow: hidden;
+}
+
+.absolute__title {
+  /* position: absolute; */
+  width: 876px;
+  height: 187px;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title__up {
+  color: #767676;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  margin-left: 65px;
+}
+
+.title__text {
+  color: #fefefe;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 400;
+  display: flex;
+  margin-left: 65px;
+}
+
+.title__line {
+  margin-left: 65px;
+  overflow: hidden;
+}
+
+.absolute__subtitle {
+  width: 875px;
+  height: 76px;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  background-color: #fbc02d;
+  display: flex;
+  position: relative;
+  left: 45px;
+}
+
+.subtitle__list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-left: 53px;
+}
+
+.material-icons {
+  font-size: 30px;
+  margin: 0 12px;
+}
+
+.list__item {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list__item:not(:nth-child(4)) {
+  opacity: 0.5;
+}
+
+.page__main {
+  width: 1060px;
+  height: 750px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+  background-color: #ffffff;
+  display: flex;
+  margin-top: 150px;
+}
+
+.main__line {
+  margin: 0 60px 0 67px;
+  overflow: hidden;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.content__author {
+  color: #b4b4b4;
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6.72px;
+}
+
+.content__title {
+  color: #2a2a2a;
+  font-family: "FuturaBT-Medium";
+  font-size: 73px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5.28px;
+  width: 755px;
+  margin-top: 30px;
+}
+
+.content__subtitle {
+  width: 551px;
+  color: #8f8f8f;
+  font-family: Georgia;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 60px;
+}
+
+.content__text {
+  width: 806px;
+  height: 143px;
+  color: #000000;
+  font-family: Georgia;
+  font-size: 27px;
+  font-weight: 100;
+  line-height: 40.38px;
+}
+
+.content__text-span {
+  font-family: "Georgia";
+  font-style: italic;
+}
+
+.second-p {
+  margin-top: 40px;
+}
