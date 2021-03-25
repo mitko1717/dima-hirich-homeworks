@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fd8d7b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="bubble" class="cls-1" d="M871.5,175a6.5,6.5,0,1,1-6.5,6.5A6.5,6.5,0,0,1,871.5,175Zm10.5-4a2,2,0,1,1-2,2A2,2,0,0,1,882,171Z" transform="translate(-865 -171)"/>
+</svg>
